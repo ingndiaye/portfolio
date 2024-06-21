@@ -1,163 +1,173 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Portfolio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='script.js'></script>
 </head>
+
 <body>
     <!--Début bare de navigation-->
-     
-    <nav>  
-        <h1>
-            <span class="material-symbols-outlined">
-                api
-            </span>
-            Abdourahmane NDIAYE
-        </h1>
-        <div> 
-            <ul>
-                <li><a href="#">Accueil</a> </li>
-                <li><a href="#about">A propos</a> </li>
-                <li><a href="#work">Compétences</a> </li>
-                <li><a href="#bio">Bio en video </a> </li>
-                <li><a href="#contact">Contact</a> </li>
-            </ul> 
-        </div>
-    </nav>
-    <hr/><hr/>
-<!--Fin bare de navigation-->           
-    <header>    
-        <!--informations-->
-        <div class="header-left">
-            <small>
-                <span class="material-symbols-outlined">
-                    home_pin
-                </span>
-                Dakar, Sénégal
-            </small>
-            <h1>Bonjour, <br/>
-               Je suis Abdourahmane NDIAYE
-            </h1>
-            <p>
-                Ingénieur en Informatique de nationalité sénégalaise. Je suis un passionné des nouvelles téchnologies.
-            </p>
-            <div class="link">
-                <ul class="linksme_ul">
-                    <li class="linksme_li">
-                        <a href="mailto:ingndiaye@gmail.com">
-                            <img src="ressources/email.png" title="Envoyer moi un email" alt="email">  
-                        </a>
-                    </li>
-                    <li class="linksme_li">
-                        <a href="">
-                            <img src="ressources/linkedin.png" title="Retrouver moi sur linkedin" alt="link">
-                        </a>
-                    </li>
-                    <li class="linksme_li">
-                        <a href=""> 
-                            <img src="ressources/resum.png" title="Mon CV détaillé" alt="cv">
-                        </a>
-                    </li>
+    <header>
+        <nav>
+            <div class="nav-gauche">
+                <h1>
+                    <span class="material-symbols-outlined">
+                        api
+                    </span>
+                    Abdourahmane NDIAYE
+                </h1>
+            </div>
+            <div class="nav-droite">
+                <ul>
+                    <li><a href="#accueil">Accueil</a> </li>
+                    <li><a href="#about">A propos</a> </li>
+                    <li><a href="#work">Compétences</a> </li>
+                    <li><a href="#bio">Bio en video </a> </li>
+                    <li><a href="#contact">Contact</a> </li>
                 </ul>
             </div>
-        </div> 
-        
-        <!--photo-->
-        <div class="header-right">
-            <img src="ressources/pprof.png" class="my-img-pp" alt="photo de profil">
-        </div> 
+        </nav>
     </header>
-    <hr/><hr/>
-    <main >
-        <!--Les différentes section -->             
-            <section id="about">
-                <h4>A propos</h4> 
+    <main> 
+        <!--Les différentes section -->
+        <section id="accueil" class="accueil">
+            <div class="header-left">
+                <small>
+                    <span class="material-symbols-outlined">
+                        home_pin
+                    </span>
+                    Dakar, Sénégal
+                </small>
+                <h1>Bonjour, <br />
+                    Je suis Abdourahmane NDIAYE
+                </h1>
                 <p>
-                    Je suis Abdourahmane NDIAYE ingénieur en Informatique de nationalité sénégalaise.
-                    Je suis un passionné des nouvelles téchnologies. 
+                    Ingénieur en Informatique de nationalité sénégalaise. Je suis un passionné des nouvelles
+                    téchnologies.
                 </p>
-            </section>
-            <hr/>
-            <section id="work">
-                <h4>Compétences</h4>
-                 <p>
-                    Je propose les services suivants:                 
-                </p>
-                <div class="div-work">
-                    <article class="block-map">                        
-                        <img src="ressources/devweb_.png" class="block-img" alt="dev web">  
-                        <h6>Développement de logiciel</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, necessitatibus aperiam. Maiores aliquam mollitia, itaque quia magnam neque, vero reprehenderit corporis vitae veniam odio quos voluptatum facere. Atque, ducimus maiores.</p>
-                        
-                    </article>
-                    <article class="block-map">
-                        <img src="ressources/auditsi_.png" class="block-img" alt="auditsi">
-                        <h6>Audit des SI</h6>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, necessitatibus aperiam. Maiores aliquam mollitia, itaque quia magnam neque, vero reprehenderit corporis vitae veniam odio quos voluptatum facere. Atque, ducimus maiores.</p>
-                         
-                    </article>
-                    <article class="block-map">
-                        <img src="ressources/infoger_.png" class="block-img" alt="infoger">
-                        <h6>Infogérance</h6> 
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, necessitatibus aperiam. Maiores aliquam mollitia, itaque quia magnam neque, vero reprehenderit corporis vitae veniam odio quos voluptatum facere. Atque, ducimus maiores.</p>
-                        
-                    </article>
-                    <article class="block-map">
-                        <img src="ressources/venteit_.png" class="block-img" alt="venteit">
-                        <h6>Vente de Matériel</h6> 
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, necessitatibus aperiam. Maiores aliquam mollitia, itaque quia magnam neque, vero reprehenderit corporis vitae veniam odio quos voluptatum facere. Atque, ducimus maiores.</p>
-                        
-                    </article> 
-                </div>                
-            </section>
-            <hr/>
-            <section id="bio">
-                <h4>Ma bio en vidéo</h4> 
-                    <p>Ceci est une vidéo qui détaille ma biographie.</p>
-                    <video class="my-bio" src="ressources/developpeur.mp4"  type="video/mp4"
-                        controls muted >
-                    </video>
-            </section>    
-            <hr/>
-            <section id="contact">
-                <h4>Me contacter</h4>
-                <form action="">
-                    <div class="nom-pnom">
-                        <div >
-                            <label>Prenom : </label>
-                            <input type="text" title="prénom" name="prenom"/>
-                        </div>
-                        <div >
-                            <label>Nom : </label>
-                            <input type="text" title="Nom" name="nom"/>
-                        </div>
-                    </div> 
-                    <div class="tel-mail">  
-                        <div>
-                            <label>E-mail : </label>
-                            <input type="email" title="Adresse email" name="email"/>
-                        </div>
-                        <div>
-                            <label>Telephone : </label>
-                            <input type="tel" title="Numéro téléphone" name="tel"/>
-                        </div>
-                    </div>                    
-                    <textarea id="message" placeholder="Votre message ici.." title="Votre message" ></textarea>
-                    <div class="btn">
-                        <button id="submit">Envoyer</button> 
-                    </div>                    
-                </form>
-            </section>
-            <hr/>
-            <!--Fin des sections-->
-    </main> 
-</body> 
-<footer> 
+                <div class="link">
+                    <ul class="linksme_ul">
+                        <li class="linksme_li">
+                            <a href="mailto:ingndiaye@gmail.com">
+                                <img src="ressources/email.png" title="Envoyer moi un email" alt="email">
+                            </a>
+                        </li>
+                        <li class="linksme_li">
+                            <a href="">
+                                <img src="ressources/linkedin.png" title="Retrouver moi sur linkedin" alt="link">
+                            </a>
+                        </li>
+                        <li class="linksme_li">
+                            <a href="">
+                                <img src="ressources/resum.png" title="Mon CV détaillé" alt="cv">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-right">
+                <img src="ressources/pprof.png" class="my-img-pp" alt="photo de profil">
+            </div>
+        </section>
+        <hr />
+        <section id="about">
+            <h4>A propos</h4>
+            <p>
+                Je suis Abdourahmane NDIAYE ingénieur en Informatique de nationalité sénégalaise.
+                Je suis un passionné des nouvelles téchnologies.
+            </p>
+        </section>
+        <hr />
+        <section id="work">
+            <h4>Compétences</h4>
+            <p>
+                Je propose les services suivants:
+            </p>
+            <div class="div-work">
+                <article class="block-map">
+                    <img src="ressources/devweb_.png" class="block-img" alt="dev web">
+                    <h6>Développement de logiciel</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, necessitatibus aperiam. Maiores
+                        aliquam mollitia, itaque quia magnam neque, vero reprehenderit corporis vitae veniam odio quos
+                        voluptatum facere. Atque, ducimus maiores.</p>
+
+                </article>
+                <article class="block-map">
+                    <img src="ressources/auditsi_.png" class="block-img" alt="auditsi">
+                    <h6>Audit des SI</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, necessitatibus aperiam. Maiores
+                        aliquam mollitia, itaque quia magnam neque, vero reprehenderit corporis vitae veniam odio quos
+                        voluptatum facere. Atque, ducimus maiores.</p>
+
+                </article>
+                <article class="block-map">
+                    <img src="ressources/infoger_.png" class="block-img" alt="infoger">
+                    <h6>Infogérance</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, necessitatibus aperiam. Maiores
+                        aliquam mollitia, itaque quia magnam neque, vero reprehenderit corporis vitae veniam odio quos
+                        voluptatum facere. Atque, ducimus maiores.</p>
+
+                </article>
+                <article class="block-map">
+                    <img src="ressources/venteit_.png" class="block-img" alt="venteit">
+                    <h6>Vente de Matériel</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, necessitatibus aperiam. Maiores
+                        aliquam mollitia, itaque quia magnam neque, vero reprehenderit corporis vitae veniam odio quos
+                        voluptatum facere. Atque, ducimus maiores.</p>
+
+                </article>
+            </div>
+        </section>
+        <hr />
+        <section id="bio">
+            <h4>Ma bio en vidéo</h4>
+            <p>Ceci est une vidéo qui détaille ma biographie.</p>
+            <video class="my-bio" src="ressources/developpeur.mp4" type="video/mp4" controls muted>
+            </video>
+        </section>
+        <hr />
+        <section id="contact">
+            <h4>Me contacter</h4>
+            <form action="">
+                <div class="nom-pnom">
+                    <div>
+                        <label>Prenom : </label>
+                        <input type="text" title="prénom" name="prenom" />
+                    </div>
+                    <div>
+                        <label>Nom : </label>
+                        <input type="text" title="Nom" name="nom" />
+                    </div>
+                </div>
+                <div class="tel-mail">
+                    <div>
+                        <label>E-mail : </label>
+                        <input type="email" title="Adresse email" name="email" />
+                    </div>
+                    <div>
+                        <label>Telephone : </label>
+                        <input type="tel" title="Numéro téléphone" name="tel" />
+                    </div>
+                </div>
+                <textarea id="message" placeholder="Votre message ici.." title="Votre message"></textarea>
+                <div class="btn">
+                    <button id="submit">Envoyer</button>
+                </div>
+            </form>
+        </section>
+        <hr />
+        <!--Fin des sections-->
+    </main>
+</body>
+<footer>
     <p>&copy; ARND 2024</p>
 </footer>
+
 </html>
